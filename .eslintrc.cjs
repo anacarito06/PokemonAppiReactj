@@ -6,6 +6,10 @@
 
 /** @type {import('eslint').Linter.Config} */
 module.exports = {
+  appDirectory: "app",
+  assetsBuildDirectory: "public/build",
+  serverBuildPath: "build/index.js",
+  publicPath: "/build/",
   root: true,
   parserOptions: {
     ecmaVersion: "latest",
